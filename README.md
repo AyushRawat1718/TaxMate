@@ -8,7 +8,7 @@ This `Java Swing` application calculates income tax based on user input.  It lev
 * `Java` Programming Language 
 * `IntelliJ` (IDE)
 * `Java Swing` (GUI Development) 
-* `SQL Database`
+* `MySQL Database`
 
 ## Screenshots
 
@@ -27,9 +27,14 @@ This `Java Swing` application calculates income tax based on user input.  It lev
 ```bash
   git clone https://github.com/AyushRawat1718/TaxMate.git
 ```
+
+* **Install JAVA**
+  
+    [JAVA](https://www.oracle.com/in/java/technologies/downloads/)
+  
 * **Set Up Database Connection**
 
-    - Install and setup the `SQL` 
+    - Install and setup the [MySQL](https://dev.mysql.com/downloads/installer/) 
     - After setting up database, use the following code for creating the required `TaxMate_Database`
     ```sql
     create database TaxMate_Database; 
@@ -45,22 +50,25 @@ This `Java Swing` application calculates income tax based on user input.  It lev
     Gender varchar(10) Not null
     );
     ```
-    - Update the `username` and `password` in the all the  java files.II_HP_01 = new ImageIcon("Path_To_Image\\Home_BackGround.png");
+    - Update the `username` and `password` in all the  java files.
     ```java
     String url = "jdbc:mysql://localhost:3306/TaxMate_Database";
     String username = "YOUR_USERNAME";
     String Password = "YOUR_PASSWORD" ;
     ``` 
 
-    - Make sure to install and configure the `mysql-connector-j`
+    - Make sure to install and configure the [mysql-connector-j](https://dev.mysql.com/downloads/connector/j/)
 
 * **Update Images Path**
-    
-    `II_HP_01 = new ImageIcon("Path_To_Image\\Home_BackGround.png";
-    `
+    - In Home_Page.java file  
+    ```
+    II_HP_01 = new ImageIcon("Path_To_Image\\Home_BackGround.png";
+    ```
 
-    `II_HP_01 = new ImageIcon("Path_To_Image\\Male_Logo.png");
-    `
+    - In Profile_Page.java file
+    ```
+    II_PP_01 = new ImageIcon("Path_To_Image\\Male_Logo.png");
+    ```
     
     
     
