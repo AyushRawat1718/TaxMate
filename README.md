@@ -1,5 +1,5 @@
 # TaxMate
-Java GUI Income Tax Calculator
+Income Tax Calculator using JAVA Swing
 
 # ScreenShots
 ![Screenshot 2024-03-30 130127](https://github.com/AyushRawat1718/TaxMate/assets/143322694/174a9f01-cc21-4a22-ad0c-71353f26ed79)
